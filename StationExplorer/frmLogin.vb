@@ -6,7 +6,7 @@
     ''' <returns>MySql.Data.MySqlClient.MySqlConnection</returns>
     Public Property dbConnection As New MySql.Data.MySqlClient.MySqlConnection
 
-    ' put comment
+    ' put comment 100
     Private Sub cmdOK_Click(sender As Object, e As EventArgs) Handles cmdOK.Click
         ' Note: for security, real connection details would never be included in source code
         Dim connectionDetails As String = "server=127.0.0.1;database=mysql_climsoft_db_v4;port=3306;"
