@@ -32,9 +32,10 @@ Partial Class frmLogin
         '
         'cmdCancel
         '
-        Me.cmdCancel.Location = New System.Drawing.Point(190, 106)
+        Me.cmdCancel.Location = New System.Drawing.Point(253, 130)
+        Me.cmdCancel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdCancel.Name = "cmdCancel"
-        Me.cmdCancel.Size = New System.Drawing.Size(75, 23)
+        Me.cmdCancel.Size = New System.Drawing.Size(100, 28)
         Me.cmdCancel.TabIndex = 11
         Me.cmdCancel.Text = "Cancel"
         Me.cmdCancel.UseVisualStyleBackColor = True
@@ -42,56 +43,62 @@ Partial Class frmLogin
         'lblPassword
         '
         Me.lblPassword.AutoSize = True
-        Me.lblPassword.Location = New System.Drawing.Point(30, 59)
+        Me.lblPassword.Location = New System.Drawing.Point(40, 73)
+        Me.lblPassword.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblPassword.Name = "lblPassword"
-        Me.lblPassword.Size = New System.Drawing.Size(53, 13)
+        Me.lblPassword.Size = New System.Drawing.Size(69, 17)
         Me.lblPassword.TabIndex = 10
         Me.lblPassword.Text = "Password"
         '
         'lblUserName
         '
         Me.lblUserName.AutoSize = True
-        Me.lblUserName.Location = New System.Drawing.Point(28, 22)
+        Me.lblUserName.Location = New System.Drawing.Point(37, 27)
+        Me.lblUserName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblUserName.Name = "lblUserName"
-        Me.lblUserName.Size = New System.Drawing.Size(55, 13)
+        Me.lblUserName.Size = New System.Drawing.Size(73, 17)
         Me.lblUserName.TabIndex = 9
         Me.lblUserName.Text = "Username"
         '
         'txtPassword
         '
-        Me.txtPassword.Location = New System.Drawing.Point(87, 56)
+        Me.txtPassword.Location = New System.Drawing.Point(116, 69)
+        Me.txtPassword.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPassword.Size = New System.Drawing.Size(142, 20)
+        Me.txtPassword.Size = New System.Drawing.Size(188, 22)
         Me.txtPassword.TabIndex = 8
         '
         'txtUserName
         '
-        Me.txtUserName.Location = New System.Drawing.Point(87, 19)
+        Me.txtUserName.Location = New System.Drawing.Point(116, 23)
+        Me.txtUserName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtUserName.Name = "txtUserName"
-        Me.txtUserName.Size = New System.Drawing.Size(142, 20)
+        Me.txtUserName.Size = New System.Drawing.Size(188, 22)
         Me.txtUserName.TabIndex = 7
         '
         'cmdOK
         '
-        Me.cmdOK.Location = New System.Drawing.Point(109, 106)
+        Me.cmdOK.Location = New System.Drawing.Point(145, 130)
+        Me.cmdOK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdOK.Name = "cmdOK"
-        Me.cmdOK.Size = New System.Drawing.Size(75, 23)
+        Me.cmdOK.Size = New System.Drawing.Size(100, 28)
         Me.cmdOK.TabIndex = 6
         Me.cmdOK.Text = "OK"
         Me.cmdOK.UseVisualStyleBackColor = True
         '
         'frmLogin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(292, 148)
+        Me.ClientSize = New System.Drawing.Size(389, 182)
         Me.Controls.Add(Me.cmdCancel)
         Me.Controls.Add(Me.lblPassword)
         Me.Controls.Add(Me.lblUserName)
         Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.txtUserName)
         Me.Controls.Add(Me.cmdOK)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmLogin"
         Me.Text = "Database login"
         Me.ResumeLayout(False)
